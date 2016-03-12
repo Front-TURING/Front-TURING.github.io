@@ -1,12 +1,20 @@
-*{
+body,
+dl, dd,
+ul, ol,
+p, hr,
+h1, h2, h3, h4, h5, h6, pre,
+form, thead, tbody, tfoot, th, td, input, textarea,
+fieldset, legend, optgroup,blockquote, figure, menu{
     margin: 0;
     padding: 0;
+}
+body{
+    height: 100%;
+    background-color: #ccf;
 }
 #container {
     min-width: 900px;
     min-height: 500px;
-    height: 500px;
-    background-color: #ccf;
     font-size: 14px;
     font-family: sans-serif;
 }
