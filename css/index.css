@@ -24,3 +24,23 @@
     text-decoration: none;
     color: #000;
 }
+#main{
+    margin-top: 100px;
+}
+#team-name{
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.portrait{
+    display: inline-block;
+    margin-right: 20px;
+}
+.portrait img{
+    height: 140px;
+    border-radius: 50%;
+}
+#team-nums{
+    text-align: center;
+    margin-top: 100px;
+}
