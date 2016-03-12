@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    min-width: 900px;
+    min-height: 500px;
+    height: 500px;
+    background-color: #ccf;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#nav{
+    font-size: 0;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: 14px;
+}
+.nav-item a{ 
+    text-decoration: none;
+    color: #000;
+}
